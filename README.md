@@ -12,5 +12,7 @@
 
 - `a2_classloader`:  本文将对类加载过程进行代码演示. 包括懒加载, 运行模式, 重写类加载器实现类部署以及class调优案例
 
-- `a3_jmm`: 对java memory model进行代码演示.
+- `a3_jmm`: 对java memory model进行代码演示. 包括获取字节码在JVM种的大小, 查看JVM内存情况, 乱序等
+
+- 
 

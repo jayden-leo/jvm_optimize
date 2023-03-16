@@ -1,0 +1,17 @@
+package com.jayden.jvm.a3_jmm;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 测试JVM内存溢出
+ *
+ * -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath="c:/tmp/jvm.dump -XX:PrintGCDetails -Xms10M -Xmx10M
+ */
+public class A3_TestHeapDump {
+    public static void main(String[] args) {
+        List list = new ArrayList();
+        for (int i = 0; i < 100000000; i++) list.add(new byte[1024 * 1024]);
+
+    }
+}
