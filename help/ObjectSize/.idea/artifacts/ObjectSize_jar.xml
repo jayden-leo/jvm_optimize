@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ObjectSize:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ObjectSize_jar</output-path>
+    <root id="archive" name="ObjectSize.jar">
+      <element id="module-output" name="ObjectSize" />
+      <element id="library" level="project" name="ObjectSize" />
+    </root>
+  </artifact>
+</component>
